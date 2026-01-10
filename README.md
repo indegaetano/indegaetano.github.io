@@ -9,4 +9,7 @@
 - Check out my past projects and work that is listed on my GitHub from my graduate studies and other projects that I have worked on in my freetime.
 - Also check out and use my premade LaTex templates for various assignment types!!
 
+I am a college professor and I have taught a few different classes, check out the courses below: 
+- Thinking Algebraically
+- Modern College Math
 
