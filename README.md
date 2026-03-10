@@ -1,5 +1,5 @@
 
-- 👋 Hi, I’m @indegaetano 
+## Professor Isabella DeGaetano 
 - ✨ I'm a graduate student studying applied and computational mathematics, my personal areas of interest is numerical analysis and numerical integration.
 - 👀 I’m interested in applied mathematics and Commodore-64 computer systems.  
 - 🌱 I’m currently learning applied math as well as cybersecurity applications and data analytics.
