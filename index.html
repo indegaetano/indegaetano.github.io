@@ -2,133 +2,131 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professor Isabella DeGaetano </title>
+<title>Professor Jane Doe</title>
 
 <style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
+body{
+    font-family: Georgia, serif;
+    margin:40px;
+    max-width:900px;
 }
 
-header {
-    background-color: #003366;
-    color: white;
-    padding: 20px;
-    text-align: center;
+header{
+    display:flex;
+    align-items:center;
+    gap:25px;
 }
 
-nav {
-    background-color: #0055a5;
-    padding: 10px;
-    text-align: center;
+img{
+    width:150px;
+    border-radius:4px;
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+h1{
+    margin-bottom:5px;
 }
 
-nav a:hover {
-    text-decoration: underline;
+h2{
+    border-bottom:1px solid #ccc;
+    padding-bottom:4px;
 }
 
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    background: white;
+a{
+    color:#990000;
+    text-decoration:none;
 }
 
-section {
-    margin-bottom: 40px;
+a:hover{
+    text-decoration:underline;
 }
 
-h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+.section{
+    margin-top:35px;
 }
 
-footer {
-    text-align: center;
-    padding: 15px;
-    background: #003366;
-    color: white;
+ul{
+    line-height:1.6;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
+
+<img src="photo.jpg" alt="Professor Photo">
+
+<div>
 <h1>Professor Jane Doe</h1>
-<p>Department of Computer Science | University Name</p>
+<p>
+Associate Professor<br>
+Department of Computer Science<br>
+Example University
+</p>
+
+<p>
+Email: janedoe@university.edu<br>
+Office: Room 402, Science Building
+</p>
+</div>
+
 </header>
 
-<nav>
-<a href="#about">About</a>
-<a href="#research">Research</a>
-<a href="#publications">Publications</a>
-<a href="#teaching">Teaching</a>
-<a href="#contact">Contact</a>
-</nav>
-
-<div class="container">
-
-<section id="about">
+<div class="section">
 <h2>About</h2>
-<p>
-I am a Professor of Computer Science at University Name. My research focuses on
-artificial intelligence, machine learning, and data science.
-</p>
-<p>
-I received my PhD from Example University and have been teaching since 2010.
-</p>
-</section>
 
-<section id="research">
-<h2>Research</h2>
+<p>
+I am an Associate Professor of Computer Science. My research focuses on
+machine learning, artificial intelligence, and data-driven systems.
+</p>
+
+</div>
+
+<div class="section">
+<h2>Research Interests</h2>
+
 <ul>
 <li>Machine Learning</li>
 <li>Artificial Intelligence</li>
 <li>Data Mining</li>
-<li>Human-Computer Interaction</li>
+<li>Human–Computer Interaction</li>
 </ul>
-</section>
 
-<section id="publications">
-<h2>Selected Publications</h2>
+</div>
+
+<div class="section">
+<h2>Publications</h2>
+
 <ul>
 <li>Doe, J. (2024). Advances in Machine Learning. Journal of AI.</li>
 <li>Doe, J. (2023). Data Science Applications. Computing Review.</li>
 <li>Doe, J. (2022). Neural Networks Research. AI Journal.</li>
 </ul>
-</section>
 
-<section id="teaching">
+</div>
+
+<div class="section">
 <h2>Teaching</h2>
+
 <ul>
 <li>CS101 – Introduction to Computer Science</li>
 <li>CS320 – Machine Learning</li>
 <li>CS450 – Artificial Intelligence</li>
 </ul>
-</section>
-
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: janedoe@university.edu</p>
-<p>Office: Room 402, Computer Science Building</p>
-<p>Office Hours: Tue & Thu 2–4 PM</p>
-</section>
 
 </div>
 
-<footer>
-<p>© 2026 Professor Jane Doe</p>
-</footer>
+<div class="section">
+<h2>Links</h2>
+
+<ul>
+<li><a href="#">Google Scholar</a></li>
+<li><a href="#">CV (PDF)</a></li>
+<li><a href="#">Research Lab</a></li>
+</ul>
+
+</div>
 
 </body>
 </html>
